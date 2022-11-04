@@ -6,7 +6,7 @@
 /*   By: aarbaoui <aarbaoui@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/01 12:37:25 by aarbaoui          #+#    #+#             */
-/*   Updated: 2022/11/03 13:27:41 by aarbaoui         ###   ########.fr       */
+/*   Updated: 2022/11/04 13:21:20 by aarbaoui         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,10 +18,12 @@
 # include <fcntl.h>
 # include <stdio.h>
 
+// This is a preprocessor directive. It is checking if MAX_FD is defined. If it is not defined, it will define it as 10240.
 # ifndef MAX_FD
 #  define MAX_FD 10240
 # endif
 
+// This is a preprocessor directive. It is checking if BUFFER_SIZE is defined. If it is not defined, it will define it as 8.
 # ifndef BUFFER_SIZE
 #  define BUFFER_SIZE 8
 # endif
